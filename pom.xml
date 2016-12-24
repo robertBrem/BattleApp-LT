@@ -24,6 +24,8 @@
                     <propertiesUser>
                         <host>${performancetest.webservice.host}</host>
                         <port>${performancetest.webservice.port}</port>
+                        <iterations>${performancetest.webservice.iterations}</iterations>
+                        <threads>${performancetest.webservice.threads}</threads>
                     </propertiesUser>
                 </configuration>
                 <executions>
@@ -60,5 +62,7 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <performancetest.webservice.host>ninja.disruptor</performancetest.webservice.host>
         <performancetest.webservice.port>31080</performancetest.webservice.port>
+        <performancetest.webservice.iterations>31080</performancetest.webservice.iterations>
+        <performancetest.webservice.threads>31080</performancetest.webservice.threads>
     </properties>
 </project>
